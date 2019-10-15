@@ -114,6 +114,9 @@ post '/contacts' do
 
 end
 
+
+
+
 def get_db
 	return SQLite3::Database.new 'barbershop.db'
 end	
