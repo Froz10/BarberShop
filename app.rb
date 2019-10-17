@@ -101,7 +101,7 @@ post '/visit' do
 	@color 	   = params[:color]	
 
 	@title = 'Thank you!'
-	@message = "Dear #{@username}, we'll be waiting for you at #{@datetime}"
+	@message = "<h2> Спасибо, вы записались!</h2>"
 
 	hh = { :username => 'Введите имя',
 	       :phone => 'Введите телефон',
